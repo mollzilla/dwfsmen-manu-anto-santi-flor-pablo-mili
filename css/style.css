@@ -1,0 +1,68 @@
+* {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background-color: #f70759;
+}
+
+a {
+  color: white;
+}
+
+header > div{
+  position: relative;
+  height: 50vh;
+  background-image: url("https://cdn.civitatis.com/estados-unidos/nueva-york/guia/nueva-york.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  width: 100%;
+}
+
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  font-size: 60px;
+  transform: translate(0, -50%);
+}
+
+i {
+  font-size: 40px;
+  color: #f70759;
+}
+
+
+.por-que {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .por-que h2 {
+  color: #212020;
+  }
+  
+  .por-que article {
+  width: 70%;
+  text-align: justify;
+  color: #666;
+  }
+
+  .carousel-item img {
+    height: 400px;
+  }
+
+
+
+
+  
